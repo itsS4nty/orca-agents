@@ -1,0 +1,69 @@
+{
+  "hallazgos": [
+    {
+      "id": "H-01",
+      "factura": "FV-2026-0414",
+      "facturaId": "fac-03",
+      "cliente": "forn-del-barri",
+      "tienda": "fb-gracia",
+      "estado": "issued",
+      "comprobacion": "total_descuadrado",
+      "detalle": "total 224.00 € frente a subtotal + IVA 242.00 €.",
+      "impactoEur": 18.0
+    },
+    {
+      "id": "H-02",
+      "factura": "FV-2026-0417",
+      "facturaId": "fac-06",
+      "cliente": "horno-real",
+      "tienda": "hr-campanar",
+      "estado": "issued",
+      "comprobacion": "precio_contrato",
+      "detalle": "HW-DAT: precio unitario 329 €; tarifa pactada 289 €; diferencia 40.00 €/unidad × 2 unidades.",
+      "impactoEur": 96.8
+    },
+    {
+      "id": "H-03",
+      "factura": "BORR-2609-01",
+      "facturaId": "fac-16",
+      "cliente": "horno-real",
+      "tienda": "hr-patraix",
+      "estado": "draft",
+      "comprobacion": "iva_catalogo",
+      "detalle": "FOR-HOR: IVA aplicado 10 %; IVA de catálogo 21 %.",
+      "impactoEur": 39.6
+    },
+    {
+      "id": "H-04",
+      "factura": "BORR-2609-02",
+      "facturaId": "fac-17",
+      "cliente": "pan-de-pueblo",
+      "tienda": "pp-mostoles",
+      "estado": "draft",
+      "comprobacion": "linea_duplicada",
+      "detalle": "PAP-TER: referencia, cantidad 4 y precio 31.5 € repetidos.",
+      "impactoEur": 152.46
+    },
+    {
+      "id": "H-05",
+      "factura": "BORR-2609-11",
+      "facturaId": "fac-26",
+      "cliente": "forn-del-barri",
+      "tienda": "fb-sants",
+      "estado": "draft",
+      "comprobacion": "servicio_no_facturado",
+      "detalle": "Faltan servicios activos para fb-sants: CON-4G.",
+      "impactoEur": 15.73
+    }
+  ],
+  "dudosas": [
+    {
+      "factura": "FV-2026-0418",
+      "porQue": "Incluye un descuento del 20 % sin acuerdo escrito firmado; la nota solo refiere un acuerdo telefónico."
+    },
+    {
+      "factura": "BORR-2609-03",
+      "porQue": "La descripción indica revisión de horno y cámara de fermentación, maquinaria de obrador excluida del objeto contractual."
+    }
+  ]
+}
